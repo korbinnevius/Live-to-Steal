@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 9646d7eab729dd14fb767a709119bae5, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.021881107, g: 0.021881107, b: 0.021881107, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -257,7 +257,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 0
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 84
   m_CollisionDetection: 0
@@ -357,7 +357,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -1018,7 +1018,7 @@ GameObject:
   - component: {fileID: 1369916903}
   - component: {fileID: 1369916902}
   m_Layer: 0
-  m_Name: Test
+  m_Name: Test Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1160,7 +1160,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!64 &1580750467
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3625,7 +3625,7 @@ GameObject:
   - component: {fileID: 543450652245681525}
   - component: {fileID: 3469287838376389328}
   - component: {fileID: 1711813854315486746}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bank-heist-models_Floor (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3745,7 +3745,7 @@ GameObject:
   - component: {fileID: 543450652238022460}
   - component: {fileID: 3469287838167926937}
   - component: {fileID: 1711813854440586323}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bank-heist-models_Floor (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3827,7 +3827,7 @@ GameObject:
   - component: {fileID: 543450652953274590}
   - component: {fileID: 3469287836869781371}
   - component: {fileID: 1711813856363549617}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bank-heist-models_Floor (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4005,7 +4005,7 @@ GameObject:
   - component: {fileID: 543450652715316192}
   - component: {fileID: 3469287836564585541}
   - component: {fileID: 1711813855993333903}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bank-heist-models_Floor (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4023,7 +4023,7 @@ GameObject:
   - component: {fileID: 543450653706648453}
   - component: {fileID: 3469287837489984544}
   - component: {fileID: 1711813855643730154}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bank-heist-models_Floor (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6059,7 +6059,7 @@ GameObject:
   - component: {fileID: 3745731173814563924}
   - component: {fileID: 8133177797825341563}
   - component: {fileID: 3229842059124864561}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Corner Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6203,7 +6203,7 @@ GameObject:
   - component: {fileID: 3745731173643193549}
   - component: {fileID: 8133177797921722594}
   - component: {fileID: 3229842060027498152}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Corner Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6329,7 +6329,7 @@ GameObject:
   - component: {fileID: 3745731174272355737}
   - component: {fileID: 8133177799389712822}
   - component: {fileID: 3229842060673437692}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Corner Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6419,7 +6419,7 @@ GameObject:
   - component: {fileID: 3745731174753216155}
   - component: {fileID: 8133177799032601268}
   - component: {fileID: 3229842061139617022}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Corner Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13315,7 +13315,7 @@ GameObject:
   - component: {fileID: 8270623003343227636}
   - component: {fileID: 7297336967943165353}
   - component: {fileID: 5746313407623267438}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor Edge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13333,7 +13333,7 @@ GameObject:
   - component: {fileID: 8270623003695533549}
   - component: {fileID: 7297336967658001072}
   - component: {fileID: 5746313407304549239}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor Edge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13351,7 +13351,7 @@ GameObject:
   - component: {fileID: 8270623003927060917}
   - component: {fileID: 7297336967360528104}
   - component: {fileID: 5746313408072822575}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor Edge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13405,7 +13405,7 @@ GameObject:
   - component: {fileID: 8270623002324917675}
   - component: {fileID: 7297336968959410934}
   - component: {fileID: 5746313406470804273}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor Edge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13513,7 +13513,7 @@ GameObject:
   - component: {fileID: 8270623003035868043}
   - component: {fileID: 7297336968315536598}
   - component: {fileID: 5746313406913254673}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor Edge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
