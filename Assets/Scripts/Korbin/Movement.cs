@@ -7,12 +7,12 @@ public class Movement : MonoBehaviour
 
     public float speed = 18f;
 
-    private Rigidbody rb;
+    private CharacterController cc;
     
     // Start is called before the first frame update
     void Start()
     {
-        rb = GetComponent<Rigidbody>();
+        cc = GetComponent<CharacterController>();
     }
 
     // Update is called once per frame
@@ -22,6 +22,6 @@ public class Movement : MonoBehaviour
         float zAxis = Input.GetAxis("Vertical");
 
         Vector3 movement = new Vector3(hAxis,0,zAxis) * (speed * Time.deltaTime);
-        rb.MovePosition(transform.position + movement);
+        cc.Move(movement);
     }
 }
