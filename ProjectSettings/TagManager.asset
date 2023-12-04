@@ -13,10 +13,10 @@ TagManager:
   - UI
   - Camera
   - Environment
-  - Walls
+  - Walls Display
   - Target
-  - 
-  - 
+  - Player
+  - Visibility FOV
   - 
   - 
   - 
