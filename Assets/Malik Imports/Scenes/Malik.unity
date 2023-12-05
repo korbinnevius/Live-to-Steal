@@ -569,7 +569,7 @@ Transform:
   m_GameObject: {fileID: 286440321}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.76, y: -30.701471, z: -17.77}
+  m_LocalPosition: {x: -8.76, y: -31.5, z: -17.77}
   m_LocalScale: {x: 2.0518, y: 2.0518, z: 2.0518}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -593,7 +593,7 @@ MonoBehaviour:
     m_Bits: 128
   playerLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   maxSightRange: 5
   patrolState: 0
   _waypoints:
@@ -1017,7 +1017,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.16666667
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: b5b0908b699751844946a9daa9a27b76, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 119381648dd21ac43b1241ab03411288, type: 2}
   m_BuildHeightMesh: 0
 --- !u!1 &950462136
 GameObject:
@@ -1149,7 +1149,7 @@ Transform:
   m_GameObject: {fileID: 1138764979}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -46.783802, y: -87.9, z: -18.976976}
+  m_LocalPosition: {x: -46.783802, y: -88.69853, z: -18.976976}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1523,7 +1523,7 @@ GameObject:
   - component: {fileID: 2058559183}
   - component: {fileID: 2058559182}
   - component: {fileID: 2058559188}
-  m_Layer: 3
+  m_Layer: 10
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1649,7 +1649,7 @@ Transform:
   m_GameObject: {fileID: 2058559181}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.92, y: -30.701471, z: 15.02}
+  m_LocalPosition: {x: 11.5, y: -31.49, z: 15.02}
   m_LocalScale: {x: 2.0518, y: 2.0518, z: 2.0518}
   m_ConstrainProportionsScale: 0
   m_Children: []
