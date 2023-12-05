@@ -11,13 +11,13 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Camera
+  - Environment
+  - Walls Display
+  - Target
+  - Player
+  - Visibility FOV
+  - Door
   - 
   - 
   - 
@@ -40,4 +40,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: CameraOverlay
+    uniqueID: 2745198235
     locked: 0
