@@ -4622,7 +4622,7 @@ GameObject:
   - component: {fileID: 1075169429}
   - component: {fileID: 1075169428}
   - component: {fileID: 1075169427}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Editor Visibility Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
