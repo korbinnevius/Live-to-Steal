@@ -24,7 +24,7 @@ public class MalikTestSecurityPatrol : MonoBehaviour
     private NavMeshAgent agent;
 
     [Header("Visual Settings")] [Header("Navigation and Patrol Settings")] [SerializeField]
-    private LayerMask groundLayer, playerLayer;
+    private LayerMask lineofsightLayer;
 
     // Security Patrol
     private Vector3 destPoint; // The destination that the security guard is walking to
@@ -67,32 +67,33 @@ public class MalikTestSecurityPatrol : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-            if (Physics.Raycast(transform.position, player.transform.position - transform.position, out hit, maxSightRange))
+        bool canSeePlayer = false;
+        if (Physics.Raycast(transform.position, player.transform.position - transform.position, out hit, maxSightRange, lineofsightLayer))
+        {
+            Debug.DrawLine(transform.position,hit.point,Color.yellow,0.1f);
+            if (hit.collider.gameObject == player) //&& chase )
             {
-                if (hit.collider.gameObject == player) //&& chase )
-                {
-                    //I see you!
-                    patrolState = PatrolState.ChasePlayer;
-                    //chase = false;
-                }
-
+                canSeePlayer = true;
+                //I see you!
+                patrolState = PatrolState.ChasePlayer;
+                //chase = false;
                 _giveUpChaseTimer = 0;
             }
-            else
-            {
-                //if cant see the player... (and are in the chase player state)
-                if (patrolState == PatrolState.ChasePlayer)
-                {
-                    _giveUpChaseTimer += Time.deltaTime;
+        }
+ 
+        
+        //if cant see the player... (and are in the chase player state)
+        if (!canSeePlayer && patrolState == PatrolState.ChasePlayer)
+        {
+            _giveUpChaseTimer += Time.deltaTime;
 
-                    //Stop chasing the player.
-                    if (_giveUpChaseTimer > GiveUpChaseTime)
-                    {
-                        patrolState = PatrolState.Patrol;
-                        _giveUpChaseTimer = 0;
-                    }
-                }
+            //Stop chasing the player.
+            if (_giveUpChaseTimer > GiveUpChaseTime)
+            {
+                patrolState = PatrolState.Patrol;
+                _giveUpChaseTimer = 0;
             }
+        }  
 
           
 
