@@ -21,7 +21,7 @@ public class Movement : MonoBehaviour
         float hAxis = Input.GetAxis("Horizontal");
         float zAxis = Input.GetAxis("Vertical");
 
-        Vector3 movement = new Vector3(hAxis,0,zAxis) * (speed * Time.deltaTime);
+        Vector3 movement = new Vector3(hAxis,0, zAxis) * (speed * Time.deltaTime);
         cc.Move(movement);
     }
 }
