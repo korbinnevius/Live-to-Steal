@@ -56,12 +56,23 @@ public class MalikTestSecurityPatrol : MonoBehaviour
     // [SerializeField] private bool chase;
     private RaycastHit hit;
     // Start is called before the first frame update
+    
+    //Audio
+    public AudioClip _securityGuardLineFreeze;
+    private AudioSource _audioSource;
+    [SerializeField] private bool canPlaySecurityGuardLine;
+    
+    
+   
     void Start()
     {
         patrolState = PatrolState.Patrol;
         agent = GetComponent<NavMeshAgent>();
+        _audioSource = GetComponent<AudioSource>();
         player = GameObject.Find("Player"); // Looks for the gameobject in the hierarchy named Player not a tag
        // chase = true;
+       
+       canPlaySecurityGuardLine = true;
     }
 
     // Update is called once per frame
@@ -102,13 +113,18 @@ public class MalikTestSecurityPatrol : MonoBehaviour
         //     // If player 1 is not in sight, continue to patrol.
         //     PatrolTick();
         // }
-        if (patrolState == PatrolState.ChasePlayer)
+        if (patrolState == PatrolState.ChasePlayer) //&& canPlaySecurityGuardLine)
         {
             if(previousState != PatrolState.ChasePlayer)
             {
                 Debug.Log("start chase player");
                 //first frame chasing player.
                 BeganChase?.Invoke();
+                
+                _audioSource.clip = _securityGuardLineFreeze;
+                canPlaySecurityGuardLine = false;
+                _audioSource.Play();
+               
             }
             //
             ChasePlayerTick();

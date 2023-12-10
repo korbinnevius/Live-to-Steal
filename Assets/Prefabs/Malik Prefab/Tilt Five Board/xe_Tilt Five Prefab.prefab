@@ -1,0 +1,562 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1068565690338522378
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8200409680103191932}
+  - component: {fileID: 2862020143641654705}
+  - component: {fileID: 3259869820004970714}
+  m_Layer: 0
+  m_Name: Tilt Five Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8200409680103191932
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1068565690338522378}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3159487050358545018}
+  m_Father: {fileID: 2210879085120022791}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &2862020143641654705
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1068565690338522378}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!114 &3259869820004970714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1068565690338522378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 1
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 1
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    quality: 3
+    frameInfluence: 0.1
+    jitterScale: 1
+    mipBias: 0
+    varianceClampScale: 0.9
+    contrastAdaptiveSharpening: 0
+--- !u!1 &1135605028987234822
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2210879085120022791}
+  m_Layer: 0
+  m_Name: xe_Tilt Five Prefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &2210879085120022791
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1135605028987234822}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4452287999020650935}
+  - {fileID: 2777244995907339977}
+  - {fileID: 8200409680103191932}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1940487855723103343
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2777244995907339977}
+  - component: {fileID: 1020716584366345029}
+  m_Layer: 0
+  m_Name: Tilt Five Game Board
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2777244995907339977
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940487855723103343}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5352978761842030717}
+  m_Father: {fileID: 2210879085120022791}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1020716584366345029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940487855723103343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39c75928ed3714ecb8d3d182fe37934a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowGizmo: 1
+  ShowGrid: 0
+  GridHeightOffset: 0
+  StickyHeightOffset: 1
+  GizmoOpacity: 0.75
+  GameboardType: 0
+--- !u!1 &2591573882276019086
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5352978761842030717}
+  m_Layer: 0
+  m_Name: Tilt Five Preview Pose
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5352978761842030717
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2591573882276019086}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.42261827, y: 0, z: 0, w: 0.9063079}
+  m_LocalPosition: {x: 0, y: 10, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2777244995907339977}
+  m_LocalEulerAnglesHint: {x: 50, y: 0, z: 0}
+--- !u!1 &8206405187300747369
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4452287999020650935}
+  - component: {fileID: 7117650726334430478}
+  m_Layer: 0
+  m_Name: Tilt Five Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4452287999020650935
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8206405187300747369}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2210879085120022791}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7117650726334430478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8206405187300747369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3f891f73c53bef488a1b03c7a8e743f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allPlayerSettings:
+  - glassesSettings:
+      RejectUntrackedPositionData: 1
+      FailureMode: 0
+      tiltFiveXR: 1
+      copyPlayerOneCameraTemplate: 1
+      copyPlayerOneObjectTemplate: 1
+      copyCloneCameraTemplateChildren: 1
+      copyPlayerOneCullingMask: 1
+      copyPlayerOneFOVToggle: 1
+      copyPlayerOneFOV: 1
+      copyPlayerOneNearClipPlane: 1
+      copyPlayerOneFarClipPlane: 1
+      headPoseCamera: {fileID: 2862020143641654705}
+      objectTemplate: {fileID: 0}
+      cloneCameraTemplateChildren: 0
+      cullingMask:
+        serializedVersion: 2
+        m_Bits: 4294967295
+      nearClipPlane: 0.1
+      farClipPlane: 100
+      overrideFOV: 0
+      customFOV: 48
+      glassesMirrorMode: 0
+      usePreviewPose: 1
+      previewPose: {fileID: 0}
+      friendlyName: Tilt Five Glasses
+    scaleSettings:
+      contentScaleUnit: 4
+      contentScaleRatio: 5
+      legacyInvertGameboardScale: 0
+      copyPlayerOneScaleRatio: 1
+      copyPlayerOneScaleUnit: 1
+    gameboardSettings:
+      currentGameBoard: {fileID: 1020716584366345029}
+      gameboardTypeOverride: 3
+      copyPlayerOneGameboard: 1
+    leftWandSettings:
+      RejectUntrackedPositionData: 1
+      FailureMode: 0
+      controllerIndex: 1
+      GripPoint: {fileID: 0}
+      FingertipPoint: {fileID: 0}
+      AimPoint: {fileID: 0}
+    rightWandSettings:
+      RejectUntrackedPositionData: 1
+      FailureMode: 0
+      controllerIndex: 0
+      GripPoint: {fileID: 0}
+      FingertipPoint: {fileID: 0}
+      AimPoint: {fileID: 0}
+    PlayerIndex: 1
+  - glassesSettings:
+      RejectUntrackedPositionData: 1
+      FailureMode: 0
+      tiltFiveXR: 1
+      copyPlayerOneCameraTemplate: 1
+      copyPlayerOneObjectTemplate: 1
+      copyCloneCameraTemplateChildren: 1
+      copyPlayerOneCullingMask: 1
+      copyPlayerOneFOVToggle: 1
+      copyPlayerOneFOV: 1
+      copyPlayerOneNearClipPlane: 1
+      copyPlayerOneFarClipPlane: 1
+      headPoseCamera: {fileID: 2862020143641654705}
+      objectTemplate: {fileID: 0}
+      cloneCameraTemplateChildren: 0
+      cullingMask:
+        serializedVersion: 2
+        m_Bits: 4294967295
+      nearClipPlane: 0.1
+      farClipPlane: 100
+      overrideFOV: 0
+      customFOV: 48
+      glassesMirrorMode: 0
+      usePreviewPose: 1
+      previewPose: {fileID: 0}
+      friendlyName: Tilt Five Glasses
+    scaleSettings:
+      contentScaleUnit: 4
+      contentScaleRatio: 5
+      legacyInvertGameboardScale: 0
+      copyPlayerOneScaleRatio: 1
+      copyPlayerOneScaleUnit: 1
+    gameboardSettings:
+      currentGameBoard: {fileID: 1020716584366345029}
+      gameboardTypeOverride: 3
+      copyPlayerOneGameboard: 1
+    leftWandSettings:
+      RejectUntrackedPositionData: 1
+      FailureMode: 0
+      controllerIndex: 1
+      GripPoint: {fileID: 0}
+      FingertipPoint: {fileID: 0}
+      AimPoint: {fileID: 0}
+    rightWandSettings:
+      RejectUntrackedPositionData: 1
+      FailureMode: 0
+      controllerIndex: 0
+      GripPoint: {fileID: 0}
+      FingertipPoint: {fileID: 0}
+      AimPoint: {fileID: 0}
+    PlayerIndex: 2
+  - glassesSettings:
+      RejectUntrackedPositionData: 1
+      FailureMode: 0
+      tiltFiveXR: 1
+      copyPlayerOneCameraTemplate: 1
+      copyPlayerOneObjectTemplate: 1
+      copyCloneCameraTemplateChildren: 1
+      copyPlayerOneCullingMask: 1
+      copyPlayerOneFOVToggle: 1
+      copyPlayerOneFOV: 1
+      copyPlayerOneNearClipPlane: 1
+      copyPlayerOneFarClipPlane: 1
+      headPoseCamera: {fileID: 2862020143641654705}
+      objectTemplate: {fileID: 0}
+      cloneCameraTemplateChildren: 0
+      cullingMask:
+        serializedVersion: 2
+        m_Bits: 4294967295
+      nearClipPlane: 0.1
+      farClipPlane: 100
+      overrideFOV: 0
+      customFOV: 48
+      glassesMirrorMode: 0
+      usePreviewPose: 1
+      previewPose: {fileID: 0}
+      friendlyName: Tilt Five Glasses
+    scaleSettings:
+      contentScaleUnit: 4
+      contentScaleRatio: 5
+      legacyInvertGameboardScale: 0
+      copyPlayerOneScaleRatio: 1
+      copyPlayerOneScaleUnit: 1
+    gameboardSettings:
+      currentGameBoard: {fileID: 1020716584366345029}
+      gameboardTypeOverride: 3
+      copyPlayerOneGameboard: 1
+    leftWandSettings:
+      RejectUntrackedPositionData: 1
+      FailureMode: 0
+      controllerIndex: 1
+      GripPoint: {fileID: 0}
+      FingertipPoint: {fileID: 0}
+      AimPoint: {fileID: 0}
+    rightWandSettings:
+      RejectUntrackedPositionData: 1
+      FailureMode: 0
+      controllerIndex: 0
+      GripPoint: {fileID: 0}
+      FingertipPoint: {fileID: 0}
+      AimPoint: {fileID: 0}
+    PlayerIndex: 3
+  - glassesSettings:
+      RejectUntrackedPositionData: 1
+      FailureMode: 0
+      tiltFiveXR: 1
+      copyPlayerOneCameraTemplate: 1
+      copyPlayerOneObjectTemplate: 1
+      copyCloneCameraTemplateChildren: 1
+      copyPlayerOneCullingMask: 1
+      copyPlayerOneFOVToggle: 1
+      copyPlayerOneFOV: 1
+      copyPlayerOneNearClipPlane: 1
+      copyPlayerOneFarClipPlane: 1
+      headPoseCamera: {fileID: 2862020143641654705}
+      objectTemplate: {fileID: 0}
+      cloneCameraTemplateChildren: 0
+      cullingMask:
+        serializedVersion: 2
+        m_Bits: 4294967295
+      nearClipPlane: 0.1
+      farClipPlane: 100
+      overrideFOV: 0
+      customFOV: 48
+      glassesMirrorMode: 0
+      usePreviewPose: 1
+      previewPose: {fileID: 0}
+      friendlyName: Tilt Five Glasses
+    scaleSettings:
+      contentScaleUnit: 4
+      contentScaleRatio: 5
+      legacyInvertGameboardScale: 0
+      copyPlayerOneScaleRatio: 1
+      copyPlayerOneScaleUnit: 1
+    gameboardSettings:
+      currentGameBoard: {fileID: 1020716584366345029}
+      gameboardTypeOverride: 3
+      copyPlayerOneGameboard: 1
+    leftWandSettings:
+      RejectUntrackedPositionData: 1
+      FailureMode: 0
+      controllerIndex: 1
+      GripPoint: {fileID: 0}
+      FingertipPoint: {fileID: 0}
+      AimPoint: {fileID: 0}
+    rightWandSettings:
+      RejectUntrackedPositionData: 1
+      FailureMode: 0
+      controllerIndex: 0
+      GripPoint: {fileID: 0}
+      FingertipPoint: {fileID: 0}
+      AimPoint: {fileID: 0}
+    PlayerIndex: 4
+  supportedPlayerCount: 3
+  spectatorSettings:
+    spectatorCamera: {fileID: 2862020143641654705}
+    glassesMirrorMode: 0
+    spectatedPlayer: 1
+    cullingMask:
+      serializedVersion: 2
+      m_Bits: 4294967295
+    fieldOfView: 60
+    nearClipPlane: 0.3
+    farClipPlane: 1000
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    targetTexture: {fileID: 0}
+  graphicsSettings:
+    matchGlassesFramerate: 1
+  logSettings:
+    level: 0
+    TAG: TFI
+  editorSettings:
+    selectedPlayer: 1
+    selectedPlayerSettingsPanel: 1
+--- !u!1 &8342701911764447387
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3159487050358545018}
+  - component: {fileID: 5171564710051758911}
+  m_Layer: 0
+  m_Name: Audio Listener
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3159487050358545018
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8342701911764447387}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8200409680103191932}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!81 &5171564710051758911
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8342701911764447387}
+  m_Enabled: 1

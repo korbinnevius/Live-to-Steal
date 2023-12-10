@@ -6,6 +6,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
+using Input = TiltFive.Input;
 
 public class GameManager : MonoBehaviour
 {
@@ -20,9 +21,6 @@ public class GameManager : MonoBehaviour
     public AudioClip _sirens;
     private AudioSource _audioSource;
 
-
-
-
     private void Start()
     {
         // The below sets both the lose and win panels as false at start and also gets the player movement script and
@@ -32,8 +30,6 @@ public class GameManager : MonoBehaviour
         winText.SetActive(false);
         _playerMovement = GetComponent<PlayerMovement>();
         _audioSource = GetComponent<AudioSource>();
-
-
 
     }
 
@@ -52,6 +48,12 @@ public class GameManager : MonoBehaviour
             _audioSource.clip = _sirens;
             _audioSource.Play();
             Debug.Log("I have made contact with an obstacle");
+        }
+        
+        if (collision.collider.CompareTag("Security") && TiltFive.Input.GetButtonDown(Input.WandButton.X))
+        {
+
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
 
         // if (collision.collider.CompareTag("Exit"))
