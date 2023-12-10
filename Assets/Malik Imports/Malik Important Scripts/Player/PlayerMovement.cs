@@ -12,20 +12,22 @@ public class PlayerMovement : MonoBehaviour
     public GameObject _player;
     public bool canMove;
     private Rigidbody _rigidbody;
+    private CharacterController cc;
     
     // Start is called before the first frame update
     void Start()
     {
         canMove = true;
+        cc = GetComponent<CharacterController>();
         _rigidbody = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        // When the player moves the joystick, their character will walk in that direction times the movement speed and 
-        // time.
-        
+        // // When the player moves the joystick, their character will walk in that direction times the movement speed and 
+        // // time.
+        //
         // if (canMove && TiltFive.Input.TryGetStickTilt(out Vector2 joystick, TiltFive.ControllerIndex.Right,
         //         TiltFive.PlayerIndex.One))
         // {
@@ -34,16 +36,16 @@ public class PlayerMovement : MonoBehaviour
         //     
         //     
         // }
-        
+
         if (canMove)
         {
-            float horizontal = Input.GetAxis("Horizontal");
-            float vertical = Input.GetAxis("Vertical");
-
-            Vector3 movement = new Vector3(horizontal, 0, vertical);
-            movement = movement * movementSpeed;
-            _rigidbody.AddForce(movement);
+            float hAxis = Input.GetAxis("Horizontal");
+            float zAxis = Input.GetAxis("Vertical");
+        
+            Vector3 movement = new Vector3(hAxis,0,zAxis) * (movementSpeed * Time.deltaTime);
+            cc.Move(movement);
         }
+        
         
     }
     
