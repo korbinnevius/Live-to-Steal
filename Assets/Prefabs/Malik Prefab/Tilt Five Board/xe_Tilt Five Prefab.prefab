@@ -76,7 +76,7 @@ Camera:
     m_Bits: 4294967295
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
+  m_TargetDisplay: 1
   m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 1
@@ -296,6 +296,7 @@ MonoBehaviour:
       tiltFiveXR: 1
       copyPlayerOneCameraTemplate: 1
       copyPlayerOneObjectTemplate: 1
+      copyPlayerOnePlayerTemplate: 1
       copyCloneCameraTemplateChildren: 1
       copyPlayerOneCullingMask: 1
       copyPlayerOneFOVToggle: 1
@@ -304,6 +305,7 @@ MonoBehaviour:
       copyPlayerOneFarClipPlane: 1
       headPoseCamera: {fileID: 2862020143641654705}
       objectTemplate: {fileID: 0}
+      playerTemplate: {fileID: 0}
       cloneCameraTemplateChildren: 0
       cullingMask:
         serializedVersion: 2
@@ -347,6 +349,7 @@ MonoBehaviour:
       tiltFiveXR: 1
       copyPlayerOneCameraTemplate: 1
       copyPlayerOneObjectTemplate: 1
+      copyPlayerOnePlayerTemplate: 1
       copyCloneCameraTemplateChildren: 1
       copyPlayerOneCullingMask: 1
       copyPlayerOneFOVToggle: 1
@@ -355,6 +358,7 @@ MonoBehaviour:
       copyPlayerOneFarClipPlane: 1
       headPoseCamera: {fileID: 2862020143641654705}
       objectTemplate: {fileID: 0}
+      playerTemplate: {fileID: 0}
       cloneCameraTemplateChildren: 0
       cullingMask:
         serializedVersion: 2
@@ -398,6 +402,7 @@ MonoBehaviour:
       tiltFiveXR: 1
       copyPlayerOneCameraTemplate: 1
       copyPlayerOneObjectTemplate: 1
+      copyPlayerOnePlayerTemplate: 1
       copyCloneCameraTemplateChildren: 1
       copyPlayerOneCullingMask: 1
       copyPlayerOneFOVToggle: 1
@@ -406,6 +411,7 @@ MonoBehaviour:
       copyPlayerOneFarClipPlane: 1
       headPoseCamera: {fileID: 2862020143641654705}
       objectTemplate: {fileID: 0}
+      playerTemplate: {fileID: 0}
       cloneCameraTemplateChildren: 0
       cullingMask:
         serializedVersion: 2
@@ -449,6 +455,7 @@ MonoBehaviour:
       tiltFiveXR: 1
       copyPlayerOneCameraTemplate: 1
       copyPlayerOneObjectTemplate: 1
+      copyPlayerOnePlayerTemplate: 1
       copyCloneCameraTemplateChildren: 1
       copyPlayerOneCullingMask: 1
       copyPlayerOneFOVToggle: 1
@@ -457,6 +464,7 @@ MonoBehaviour:
       copyPlayerOneFarClipPlane: 1
       headPoseCamera: {fileID: 2862020143641654705}
       objectTemplate: {fileID: 0}
+      playerTemplate: {fileID: 0}
       cloneCameraTemplateChildren: 0
       cullingMask:
         serializedVersion: 2

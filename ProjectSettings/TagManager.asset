@@ -7,6 +7,7 @@ TagManager:
   - Security
   - Keycard
   - WinBarrier
+  - Interactable
   layers:
   - Default
   - TransparentFX
@@ -21,10 +22,10 @@ TagManager:
   - Player
   - Visibility FOV
   - Door
-  - 
-  - 
-  - 
-  - 
+  - Interactor
+  - Interactable
+  - VaultDoor
+  - Keycard
   - 
   - 
   - 
