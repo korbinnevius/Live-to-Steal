@@ -6,19 +6,17 @@ using UnityEngine.SceneManagement;
 
 public class RestartGame : MonoBehaviour
 {
-    
-    //Used Old Tilt Five so check this out.
-    // void Update()
-    // {
-    //     if (TiltFive.Wand.TryGetWandDevice(TiltFive.PlayerIndex.One, TiltFive.ControllerIndex.Right,
-    //             out TiltFive.WandDevice wandDevice))
-    //     {
-    //         if (wandDevice.One.wasPressedThisFrame)
-    //         {
-    //             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    //         }
-    //         
-    //     }
-    // }
+    void Update()
+     {
+         if (TiltFive.Wand.TryGetWandDevice(TiltFive.PlayerIndex.One, TiltFive.ControllerIndex.Right,
+                 out TiltFive.WandDevice wandDevice))
+         {
+             if (wandDevice.One.wasPressedThisFrame)
+             {
+                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+             }
+             
+         }
+     }
     
 }
