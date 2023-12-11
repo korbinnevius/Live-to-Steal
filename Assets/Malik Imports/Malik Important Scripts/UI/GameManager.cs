@@ -50,7 +50,20 @@ public class GameManager : MonoBehaviour
             Debug.Log("I have made contact with an obstacle");
         }
         
-        if (collision.collider.CompareTag("Security") && TiltFive.Input.GetButtonDown(Input.WandButton.X))
+        if (collision.collider.CompareTag("WinBarrier"))
+        {
+
+            // When the play collides with any gameobject that is labelled obstacles, the lose panel will be set
+            // as active, the timer will stop and the siren sounds will play.
+
+            YouWin();
+            // StopTimer?.Invoke();
+            // _audioSource.clip = _sirens;
+            // _audioSource.Play();
+            Debug.Log("You have successfully stolen the money");
+        }
+
+        if (loseText && TiltFive.Input.GetButtonDown(Input.WandButton.X))
         {
 
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);

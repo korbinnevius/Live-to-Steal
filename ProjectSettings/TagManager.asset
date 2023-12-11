@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Security
   - Keycard
+  - WinBarrier
   layers:
   - Default
   - TransparentFX
