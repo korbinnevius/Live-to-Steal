@@ -3,12 +3,11 @@ using System.Collections.Generic;
 using TiltFive;
 using UnityEngine;
 //using Input = UnityEngine.Input;
-
 using Input = TiltFive.Input;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float movementSpeed = 5;
+    public float movementSpeed = 1;
     public GameObject _player;
     public bool canMove;
     private Rigidbody _rigidbody;
