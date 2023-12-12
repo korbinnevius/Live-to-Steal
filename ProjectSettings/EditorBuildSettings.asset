@@ -8,7 +8,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Final Scene/Main Menu.unity
     guid: 1a81c28f8de19fd43bf5294d1d87d012
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Final Scene/Malik Tog.BankLayout 1.unity
     guid: 8987f1be38931a74cb092106ea1db22d
+  - enabled: 1
+    path: Assets/Scenes/EthanTestScene.unity
+    guid: 6f2b54d1262e40144990a834e8b7bdf5
+  - enabled: 0
+    path: Assets/Scenes/Korbin/Tog.BankLayout.unity
+    guid: 5e1c67deffa75fe468b7df35d4341f6d
+  - enabled: 1
+    path: Assets/Scenes/Final Scene/Korbin/FinalBankLayout.unity
+    guid: 4f76de359911df544bc1a2169e00e8e3
   m_configObjects: {}
