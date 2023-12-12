@@ -252,7 +252,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e60860925d237f04d8087d9befe5aeb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  viewRadius: 1.7
+  viewRadius: 3.58
   viewAngle: 360
   targetMask:
     serializedVersion: 2
@@ -16762,7 +16762,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!64 &1075169427
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30735,6 +30735,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Security one
+      objectReference: {fileID: 0}
+    - target: {fileID: 2809838131157024319, guid: 8fb0778019afe8247b4b7f8601fb3eca,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5596685561253797409, guid: 8fb0778019afe8247b4b7f8601fb3eca,
         type: 3}
