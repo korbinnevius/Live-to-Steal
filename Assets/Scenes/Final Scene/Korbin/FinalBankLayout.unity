@@ -692,6 +692,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CameraLayoutPrefab: {fileID: 1580941513}
   interactButton: 2
+  _securityGuardOne: {fileID: 1572944860}
 --- !u!1 &12381060 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 127100804006768239, guid: 7dda3c7923b464b4a823b2fc92ae359a,
@@ -20912,6 +20913,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Security two
       objectReference: {fileID: 0}
+    - target: {fileID: 4918511264720525162, guid: 8fb0778019afe8247b4b7f8601fb3eca,
+        type: 3}
+      propertyPath: m_Speed
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5596685561253797409, guid: 8fb0778019afe8247b4b7f8601fb3eca,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20965,7 +20971,7 @@ PrefabInstance:
     - target: {fileID: 6835560452487416864, guid: 8fb0778019afe8247b4b7f8601fb3eca,
         type: 3}
       propertyPath: speed
-      value: 1
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 6835560452487416864, guid: 8fb0778019afe8247b4b7f8601fb3eca,
         type: 3}
@@ -23280,6 +23286,12 @@ MonoBehaviour:
   m_MinRegionArea: 2
   m_NavMeshData: {fileID: 23800000, guid: d1db51d84eff4a849809f826fc25d34b, type: 2}
   m_BuildHeightMesh: 0
+--- !u!1 &1572944860 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2809838131157024319, guid: 8fb0778019afe8247b4b7f8601fb3eca,
+    type: 3}
+  m_PrefabInstance: {fileID: 5630628656584934362}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1576570314
 GameObject:
   m_ObjectHideFlags: 0
@@ -30739,7 +30751,12 @@ PrefabInstance:
     - target: {fileID: 2809838131157024319, guid: 8fb0778019afe8247b4b7f8601fb3eca,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4918511264720525162, guid: 8fb0778019afe8247b4b7f8601fb3eca,
+        type: 3}
+      propertyPath: m_Speed
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5596685561253797409, guid: 8fb0778019afe8247b4b7f8601fb3eca,
         type: 3}
