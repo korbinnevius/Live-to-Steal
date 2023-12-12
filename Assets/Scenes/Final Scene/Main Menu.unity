@@ -569,7 +569,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 100954392}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fa9a4f6b8645a2e43bbc761219ee4a03, type: 3}
   m_Name: 
@@ -998,7 +998,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -4.7850037, y: -114}
+  m_AnchoredPosition: {x: -4.784973, y: -114}
   m_SizeDelta: {x: 110.932, y: 159.81}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &495897369
@@ -1024,9 +1024,8 @@ MonoBehaviour:
   m_text: "Joystick to move around the scene. \nPress One on the T5 wand to hack
     when in security room.\n\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 767f455dbdc8c444fb7f872e3ad72aa2, type: 2}
-  m_sharedMaterial: {fileID: 6221898068981363826, guid: 767f455dbdc8c444fb7f872e3ad72aa2,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1050,8 +1049,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 38.45
-  m_fontSizeBase: 38.45
+  m_fontSize: 55.3
+  m_fontSizeBase: 55.3
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3158,7 +3157,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2009866177}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fa9a4f6b8645a2e43bbc761219ee4a03, type: 3}
   m_Name: 
