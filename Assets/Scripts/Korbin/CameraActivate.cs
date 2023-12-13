@@ -13,10 +13,8 @@ public class CameraActivate : MonoBehaviour
     private bool isCollided = false;
     [SerializeField] private GameObject _securityGuardOne;
 
-    public bool IsCollided
-    {
-        get { return isCollided; }
-    }
+    public bool IsCollided => isCollided;
+    
     
     void Start()
     {
@@ -27,10 +25,7 @@ public class CameraActivate : MonoBehaviour
     //TiltFive.Input.GetButtonDown(interactButton, ControllerIndex.Right, PlayerIndex.One)
     void Update()
     {
-        // if (isCollided && TiltFive.Input.GetButtonDown(interactButton, ControllerIndex.Right, PlayerIndex.One))
-        // {
-        //     CameraLayoutPrefab.SetActive(true);
-        // }
+       
         if (isCollided && TiltFive.Input.GetButtonDown(interactButton, ControllerIndex.Right, PlayerIndex.One) || isCollided && Input.GetKeyDown(KeyCode.Space))
         {
             CameraLayoutPrefab.SetActive(true);

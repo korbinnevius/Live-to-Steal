@@ -7917,7 +7917,7 @@ GameObject:
   - component: {fileID: 464798157}
   - component: {fileID: 464798156}
   m_Layer: 6
-  m_Name: EntranceCamera 1A
+  m_Name: HallwayCam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7932,13 +7932,13 @@ Transform:
   m_GameObject: {fileID: 464798154}
   serializedVersion: 2
   m_LocalRotation: {x: -0.14593773, y: 0.7873542, z: -0.20769101, w: -0.5618186}
-  m_LocalPosition: {x: 7.38, y: -0.03, z: -0.89}
+  m_LocalPosition: {x: 3.3704257, y: 1.9985678, z: -0.98954684}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1526383440}
   - {fileID: 1358792427}
-  m_Father: {fileID: 1580941514}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 29.409, y: 251.081, z: 0.234}
 --- !u!114 &464798156
 MonoBehaviour:
@@ -23453,7 +23453,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 464798155}
   - {fileID: 1455703541}
   - {fileID: 784201293}
   - {fileID: 486924799}
@@ -31041,6 +31040,7 @@ SceneRoots:
   - {fileID: 1614168768}
   - {fileID: 603342886}
   - {fileID: 919431775}
+  - {fileID: 464798155}
   - {fileID: 1580941514}
   - {fileID: 11036038}
   - {fileID: 5179897257160822481}
