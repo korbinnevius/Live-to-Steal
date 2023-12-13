@@ -11,6 +11,7 @@ public class CameraActivate : MonoBehaviour
     public GameObject CameraLayoutPrefab;
     public TiltFive.Input.WandButton interactButton;
     private bool isCollided = false;
+    [SerializeField] private GameObject _securityGuardOne;
 
     public bool IsCollided
     {
@@ -19,7 +20,7 @@ public class CameraActivate : MonoBehaviour
     
     void Start()
     {
-        
+        _securityGuardOne.SetActive(false);
     }
 
     // Update is called once per frame
@@ -33,6 +34,7 @@ public class CameraActivate : MonoBehaviour
         if (isCollided && TiltFive.Input.GetButtonDown(interactButton, ControllerIndex.Right, PlayerIndex.One) || isCollided && Input.GetKeyDown(KeyCode.Space))
         {
             CameraLayoutPrefab.SetActive(true);
+            _securityGuardOne.SetActive(true);
         }
     }
 
