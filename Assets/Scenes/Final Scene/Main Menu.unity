@@ -991,15 +991,15 @@ RectTransform:
   m_GameObject: {fileID: 495897367}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.6871346, y: 0.6871346, z: 0.6871346}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 2053237925}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -4.784973, y: -114}
-  m_SizeDelta: {x: 110.932, y: 159.81}
+  m_AnchoredPosition: {x: 8.8220215, y: -183.72998}
+  m_SizeDelta: {x: 1099.473, y: 159.81}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &495897369
 MonoBehaviour:
@@ -1021,10 +1021,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Robber:\nJoystick to move around the scene. \nPress One on the T5 wand
-    to hack when in security room.\nHacker:\nView goals on blueprints. Guide robber
-    to security to gain more access and then help robber avoid the security gaurds
-    while finding keypass for vault entry. \n"
+  m_text: "Robber:\nJoystick to move around the scene. \nPress ONE on the T5 wand
+    to hack when in security room. COMMUNICATE WHAT YOU SEE AROUND YOU TO THE HACKER
+    SO THAT THEY CAN FIGURE OUT WHERE YOU ARE (plants, garbage bins, chairs, etc.)\n\nHacker:\nView
+    goals on blueprints. Guide robber to security to gain access to more cameras
+    and then help robber avoid the security gaurds while finding a keypass for vault
+    entry. Give updates on gaurd movements in order to help plan your course of action.
+    \n\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1057,7 +1060,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -1924,8 +1927,8 @@ RectTransform:
   m_GameObject: {fileID: 942142735}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.6871346, y: 0.6871346, z: 0.6871346}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.32, y: 1.32, z: 1.32}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 2053237925}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2173,8 +2176,8 @@ RectTransform:
   m_GameObject: {fileID: 1201491859}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 2.56, y: 2.56, z: 2.56}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 800163785}
   - {fileID: 83890376}
@@ -2694,15 +2697,15 @@ RectTransform:
   m_GameObject: {fileID: 1388993859}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.6871346, y: 0.6871346, z: 0.6871346}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.43, y: 1.43, z: 1.43}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 539979672}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -1}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchoredPosition: {x: 13.235046, y: -89.95001}
+  m_SizeDelta: {x: -26.46993, y: 50}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1388993861
 MonoBehaviour:
@@ -2827,15 +2830,15 @@ RectTransform:
   m_GameObject: {fileID: 1535913144}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.94, y: 1.94, z: 1.94}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 324892180}
   m_Father: {fileID: 2053237925}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -63.8}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1779810778
