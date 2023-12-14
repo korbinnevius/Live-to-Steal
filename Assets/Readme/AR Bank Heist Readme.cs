@@ -16,6 +16,10 @@
 
 // Sources
 
+//Assets:
+
+//POLYGON - Heist Pack by SYNTY Studios, https://syntystore.com/products/polygon-heist-pack?_pos=1&_sid=adbc9e902&_ss=r, Licence bought by Ethan Derstine
+
 // Siren:
 
 //SoundEffectsFactory. (2012). Ultimate Alarm Sound Effect (Gaming Sound Effects). 
