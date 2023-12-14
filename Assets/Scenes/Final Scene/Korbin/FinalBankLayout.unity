@@ -252,7 +252,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e60860925d237f04d8087d9befe5aeb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  viewRadius: 3.58
+  viewRadius: 2.6
   viewAngle: 360
   targetMask:
     serializedVersion: 2
@@ -9953,7 +9953,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.96
+  m_Intensity: 0.26
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -10883,7 +10883,7 @@ GameObject:
   - component: {fileID: 704956113}
   - component: {fileID: 704956112}
   - component: {fileID: 704956111}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CameraVisibility (1)
   m_TagString: Untagged
   m_Icon: {fileID: -5938655980376293919, guid: 0000000000000000d000000000000000, type: 0}
@@ -21038,7 +21038,7 @@ GameObject:
   - component: {fileID: 983438009}
   - component: {fileID: 983438008}
   - component: {fileID: 983438007}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CameraVisibility1A (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22893,7 +22893,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!64 &1075169427
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27589,13 +27589,18 @@ PrefabInstance:
     - target: {fileID: 6835560452487416864, guid: 8fb0778019afe8247b4b7f8601fb3eca,
         type: 3}
       propertyPath: speed
-      value: 0.1
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 6835560452487416864, guid: 8fb0778019afe8247b4b7f8601fb3eca,
         type: 3}
       propertyPath: firstSphere
       value: 
       objectReference: {fileID: 2102385512}
+    - target: {fileID: 6835560452487416864, guid: 8fb0778019afe8247b4b7f8601fb3eca,
+        type: 3}
+      propertyPath: maxSightRange
+      value: 1.3
+      objectReference: {fileID: 0}
     - target: {fileID: 6835560452487416864, guid: 8fb0778019afe8247b4b7f8601fb3eca,
         type: 3}
       propertyPath: _waypoints.Array.size
@@ -29793,7 +29798,7 @@ GameObject:
   - component: {fileID: 1526383443}
   - component: {fileID: 1526383442}
   - component: {fileID: 1526383441}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CameraVisibility1A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32249,7 +32254,7 @@ GameObject:
   - component: {fileID: 1685869208}
   - component: {fileID: 1685869207}
   - component: {fileID: 1685869206}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CameraVisibility
   m_TagString: Untagged
   m_Icon: {fileID: -5938655980376293919, guid: 0000000000000000d000000000000000, type: 0}
@@ -38242,7 +38247,7 @@ PrefabInstance:
     - target: {fileID: 6835560452487416864, guid: 8fb0778019afe8247b4b7f8601fb3eca,
         type: 3}
       propertyPath: speed
-      value: 0.1
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 6835560452487416864, guid: 8fb0778019afe8247b4b7f8601fb3eca,
         type: 3}
@@ -38459,8 +38464,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7117650726334430478, guid: 9e831471e6956844fa5d595d9f9def7c,
         type: 3}
+      propertyPath: spectatorSettings.cullingMask.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7117650726334430478, guid: 9e831471e6956844fa5d595d9f9def7c,
+        type: 3}
       propertyPath: editorSettings.selectedPlayerSettingsPanel
-      value: 3
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7117650726334430478, guid: 9e831471e6956844fa5d595d9f9def7c,
+        type: 3}
+      propertyPath: allPlayerSettings.Array.data[0].glassesSettings.cullingMask.m_Bits
+      value: 130999
       objectReference: {fileID: 0}
     - target: {fileID: 7117650726334430478, guid: 9e831471e6956844fa5d595d9f9def7c,
         type: 3}
