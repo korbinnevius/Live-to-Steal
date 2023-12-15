@@ -1,5 +1,9 @@
 ﻿using UnityEngine;
 
+
+//originally in field of view script
+//Hunter moved this into its own script
+
 public struct EdgeInfo {
     public Vector3 pointA;
     public Vector3 pointB;
