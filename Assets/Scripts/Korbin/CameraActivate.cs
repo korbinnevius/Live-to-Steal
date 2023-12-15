@@ -32,20 +32,6 @@ public class CameraActivate : MonoBehaviour
            // _securityGuardOne.SetActive(true);
         }
     }
-
-    // private void OnTriggerEnter(Collider other)
-    // {
-    //     //detects object collision. Not working with additional argument.
-    //     //only triggers collision once now. Not a problem but I feel like its better if it's only once
-    //     if (CameraLayoutPrefab.activeInHierarchy == false)
-    //     {
-    //         if (other.gameObject.CompareTag("Interactable") && Input.GetKeyDown(KeyCode.Space))
-    //         {
-    //             Debug.Log("Collided");
-    //             CameraLayoutPrefab.SetActive(true);
-    //         }
-    //     }
-    // }
     
     private void OnTriggerEnter(Collider other)
     {
