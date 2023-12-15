@@ -10,6 +10,8 @@ public class KeycardPickup : MonoBehaviour
 
     private void Update()
     {
+    // If the player collides with the gameobject tagged keycard, set the player gameobject as the parent of the gameobject
+    // tagged keycard.
         if (isPickup)
         {
             _keyCard.transform.SetParent(this.transform);

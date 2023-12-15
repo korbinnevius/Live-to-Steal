@@ -40,8 +40,8 @@ public class GameManager : MonoBehaviour
         if (collision.collider.CompareTag("Security"))
         {
 
-            // When the play collides with any gameobject that is labelled obstacles, the lose panel will be set
-            // as active, the timer will stop and the siren sounds will play.
+            // When the play collides with any gameobject that is labelled Security, the lose panel will be set
+            // as active and play the siren audio source.
 
             YouLose();
             StopTimer?.Invoke();
@@ -53,8 +53,8 @@ public class GameManager : MonoBehaviour
         if (collision.collider.CompareTag("WinBarrier"))
         {
 
-            // When the play collides with any gameobject that is labelled obstacles, the lose panel will be set
-            // as active, the timer will stop and the siren sounds will play.
+            // When the play collides with the empty gameobject that is tagged WinBarrier, the win panel will be set
+            // as active.
 
             YouWin();
             // StopTimer?.Invoke();
@@ -65,23 +65,10 @@ public class GameManager : MonoBehaviour
 
         if (loseText && TiltFive.Input.GetButtonDown(Input.WandButton.X))
         {
-
+            // If the lose text is active and the player pressed the X button on the Tilt 5 Wand, the game will restart.
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
-
-        // if (collision.collider.CompareTag("Exit"))
-        //{
-
-        // When the play makes their way to the exit and collides with the empty collider an the exit point,
-        // the win panel will be set as active and the timer will stop.
-
-        //     YouWin();
-        //     StopTimer?.Invoke();
-        //     //_audioSource.clip = _sirens;
-        //     //_audioSource.Play();
-        //     Debug.Log("Job Done");
-        // }
-        //}
+        
 
         // Function that sets the lose panel as active and disable player movement.
         void YouLose()

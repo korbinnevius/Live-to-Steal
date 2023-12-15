@@ -200,19 +200,7 @@ public class MalikTestSecurityPatrol : MonoBehaviour
         }
     }
 
-    // public void ChasePlayerThenStop()
-    // {
-    //     StartCoroutine(Wait());
-    // }
-    //
-    // IEnumerator Wait()
-    // {
-    //     yield return new WaitForSeconds(2f);
-    //     BustedTick();
-    // }
 
-
-    
 }
 
 
